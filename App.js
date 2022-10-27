@@ -5,8 +5,8 @@ import FadeInView from './components/FadeInView';
 // import Circle from './components/Circle';
 // import MoveX from './components/MoveX';
 // import Move from './components/Move';
-// import Cau4 from './components/Cau4';
-// import TexAnimation from './components/TexAnimation';
+//  import Cau4 from './components/TextAndImage';
+//  import TexAnimation from './components/ButtonAnimation';
 
 export default function App() {
   return (
