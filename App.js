@@ -1,20 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import FadeInView from './components/FadeInView';
-// import BellAnimation from './components/BellAnimation';
-// import Circle from './components/Circle';
-// import MoveX from './components/MoveX';
-// import Move from './components/Move';
-//  import Cau4 from './components/TextAndImage';
-//  import TexAnimation from './components/ButtonAnimation';
+import BellAnimation from './components/BellAnimation';
+import Circle from './components/Circle';
+import MoveX from './components/MoveX';
+import Move from './components/Move';
+ import Cau4 from './components/TextAndImage';
+ import TexAnimation from './components/ButtonAnimation';
 
 export default function App() {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       {/* Cau 1 */}
-      <FadeInView style={{height: 50, backgroundColor: 'powderblue' }}>
+      {/* <FadeInView style={{height: 100, backgroundColor: 'powderblue' }}>
         <Text style={{ fontSize: 28, textAlign: 'center', margin: 10 }}>Welcome to Animation</Text>
-      </FadeInView>
+      </FadeInView> */}
 
        {/* Cau 2 */}
       {/* <MoveX/> */}
@@ -32,7 +32,7 @@ export default function App() {
       {/* <BellAnimation/> */}
 
       {/* Cau 7 */}
-      {/* <Circle/>  */}
+      <Circle/> 
       
     </View>
   );
